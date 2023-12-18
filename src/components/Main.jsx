@@ -66,6 +66,7 @@ function Main() {
   return (
     <>
       <NavBar />
+      
       <div className="main-page">
         <img
           src={background}

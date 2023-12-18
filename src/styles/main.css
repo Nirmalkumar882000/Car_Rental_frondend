@@ -1,6 +1,7 @@
 .main-page{
     position: relative;
     width: 80%;
+    margin-left: 10px;
 }
 
 @media only screen and (max-width: 1360px) {
@@ -97,13 +98,14 @@
   flex-direction: column;
   align-items: center;
   margin-top: 70px;
+  margin-left: 20%;
 }
 
 .trip-info h2{
   font-size: 3.5em;
   color: #fff;
   background-color: #000;
-  width: 100%;
+  width: 130%;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(2, 2, 2);
@@ -113,9 +115,10 @@
 .trip-info .boxes{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   margin-top: 50px;
+
 }
 
 .trip-info .boxes .box{
@@ -130,6 +133,7 @@
   border: 1px solid black;
   border-radius: 10px;
   margin-bottom: 20px;
+  
 
 }
 
@@ -154,9 +158,9 @@
   flex-direction: column;
   align-items: center;
   margin-top: 60px;
-  margin-left: -5%;
+  margin-left: 8%;
   text-align: center;
-  width: 130%;
+  width: 110%;
 }
 
 @media only screen and (max-width: 1360px) {
@@ -351,7 +355,8 @@
   flex-direction: column;
   align-items: center;
   margin-top: 70px;
-  width: 75%;
+  width: 100%;
+  margin-left: 10%;
 }
 .opinons-container .opinions-title {
   display: flex;
@@ -437,12 +442,15 @@
 
 /* last Faq container */
 
+
+
 .faq-container{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 70px;
-  width: 75%;
+  width: 100%;
+  margin-left: 10%;
 }
 
 .faq-container .faq-title{
@@ -456,6 +464,7 @@
   box-shadow: 0 0 10px rgb(2,2,2);
   margin-top: 60px;
   padding: 20px;
+
 }
 
 @media only screen and (max-width: 1360px) {
@@ -506,8 +515,8 @@
 .faq-container .slider-container img{
   position: absolute;
   top: -200px;
-  left: -250px;
-  width: 300px;
+  left: -480px;
+  width: 550px;
 }
 
 .faq-container .slider-container .slider-title{

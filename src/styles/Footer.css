@@ -1,3 +1,12 @@
+.promos{
+  background-color: #000;
+  margin-left: .5%;
+  margin-top: 60px;
+  width: 123%;
+
+}
+
+
 .footer-container{
     display: flex;
     width: 100%;
