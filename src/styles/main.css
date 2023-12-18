@@ -143,3 +143,402 @@
   font-size: 1.5em;
   text-align: center;
 }
+
+
+
+/* Promo car Rentals */
+
+.promo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: -5%;
+  text-align: center;
+  width: 130%;
+}
+
+@media only screen and (max-width: 1360px) {
+  .promo {
+    margin-top: 60px;
+    margin-left: -5%;
+  }
+}
+
+.promo .title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #000;
+  border-radius:10px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  margin-top: 60px;
+  padding: 20px; 
+}
+
+
+.promo .title h2{
+  font-size: 3em;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1360px) {
+  .promo .title h2 {
+    font-size: 3em;
+    margin-left: -300px;
+    padding-left: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .promo .title h2 {
+    display: none;
+  }
+}
+
+.promo .title span{
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 20px 60px 50px 50px;
+}
+
+@media only screen and (max-width: 1360px) {
+  .promo .title span {
+    font-size: 1.2em;
+    padding: 20px 250px 50px 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .promo .title span {
+    font-size: 1.2em;
+    padding: 20px 160px 50px 50px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .promo .title span {
+    font-size: 1.2em;
+    padding: 20px 120px 50px 50px;
+  }
+}
+
+.promo img{
+  width: 1300px;
+}
+
+.promo .offer-container{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1360px) {
+  .promo .offer-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: -15%;
+  }
+}
+
+
+.promo .offer-container .left{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1360px) {
+  .promo .offer-container .left {
+    width: 80%;
+  }
+}
+
+.promo .offer-container .left h1{
+  font-size: 3.5em;
+  color: #fff;
+  margin-top: 0px;
+}
+.promo .offer-container .left h3{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 0px;
+
+}
+
+.promo .offer-container .left span{
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.promo .offer-container .left button{
+  width: 400px;
+  height: 55px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.promo .offer-container .left button:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  .promo .offer-container .left button {
+    width: 80%;
+  }
+}
+
+.promo .offer-container .right .box{
+  display: flex;
+  width: 600px;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width:768px){
+  .promo .offer-container .right .box{
+    width: 92%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .promo .offer-container .right .box {
+    width: 90%;
+  }
+}
+
+.promo .offer-container .right .box img{
+  width: 100%;
+}
+.promo .offer-container .right .box .offer-description{
+  margin-left: 50px;
+}
+
+.promo .offer-container .right .box .offer-description h3{
+  font-size: 2em;
+  text-align: center;
+}
+.promo .offer-container .right .box .offer-description span{
+ font-size: 1.5em;
+ text-align: center;
+}
+
+
+/* opinons contaiiner */
+
+.opinons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  width: 75%;
+}
+.opinons-container .opinions-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  margin-top: 60px;
+  padding: 20px;
+}
+@media only screen and (max-width: 1360px) {
+  .opinons-container .opinions-title {
+    margin-left: -20%;
+  }
+}
+.opinons-container .opinions-title h2 {
+  font-size: 3.5em;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: white;
+}
+.opinons-container .opinions-title span {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.opinons-container .opinions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 130px;
+}
+@media only screen and (max-width: 1360px) {
+  .opinons-container .opinions {
+    margin-left: -20%;
+  }
+}
+
+.opinons-container .opinions .opinion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 600px;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.opinons-container .opinions .opinion span {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.opinons-container .opinions .opinion .clients {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.opinons-container .opinions .opinion .clients .client {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.opinons-container .opinions .opinion .clients .client span {
+  margin-left: 20px;
+}
+.opinons-container .opinions .opinion .clients .client img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+
+/* last Faq container */
+
+.faq-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  width: 75%;
+}
+
+.faq-container .faq-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #000;
+  border: 1px solid #000;
+  box-shadow: 0 0 10px rgb(2,2,2);
+  margin-top: 60px;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 1360px) {
+  .faq-container .faq-title {
+    margin-left: -20%;
+  }
+}
+
+
+.faq-container .faq-title h2{
+  color: #fff;
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.faq-container .faq-title span{
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.faq-container .slider-container{
+  width: 60%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  position: relative;
+  margin-top: 140px;
+}
+@media only screen and (max-width: 1360px) {
+  .faq-container .slider-container {
+    margin-left: -20%;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .faq-container .slider-container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .faq-container .slider-container {
+    width: 100%;
+  }
+}
+
+.faq-container .slider-container img{
+  position: absolute;
+  top: -200px;
+  left: -250px;
+  width: 300px;
+}
+
+.faq-container .slider-container .slider-title{
+  margin: 0;
+  font-size: 1.5rem;
+  padding: 10px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.faq-container .slider-container .slider-title:hover {
+  background-color: black;
+  color: white;
+}
+.faq-container .slider-container .slider-content {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+
+/* footer container */
+
+
+
+
+
+
+
+
+
+
+
